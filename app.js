@@ -93,16 +93,16 @@ function displayCatchphrases() {
     chatchphrasesEl.textContent = '';
     // loop through each catchphrase in state
     for (let slogan of catchphraseArray) {
-
+    // create an HTML element with the catchphrase as its text content
         const p = document.createElement('p');
         p.classList.add('slogan');
         p.textContent = slogan;
-
+    // and append that HTML element to the cleared-out DOM
         chatchphrasesEl.append(p);
     }
     // and for each catchphrase
-    // create an HTML element with the catchphrase as its text content
-    // and append that HTML element to the cleared-out DOM
+    
+    
 }
 
 function displayStats() {
