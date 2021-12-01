@@ -139,3 +139,8 @@ main {
     font-family: cursive;
     text-align: center;
 }
+
+img {
+    height: 200px;
+    margin-top: 50px;
+}
